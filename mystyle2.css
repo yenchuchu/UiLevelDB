@@ -1,0 +1,119 @@
+body{
+	background-color: #edf1f2;
+}
+#navbar1{
+	background-color: #27c24c;
+	border-color:#27c24c;
+}
+#navbar1 a{
+	color:white;
+}
+#navbar1 a:hover{
+	background-color: #23af45;
+}
+.card{
+	/*width: 30%;*/
+	margin-right: 30px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	color: #27c24c;
+	/*width: 60%;*/
+}
+#card-header{
+	background-color: #27c24c;
+	font-weight: bold;
+	color:white;
+	font-size: 20px;
+}
+.navbar-inverse{
+	background-color: #27c24c;
+}
+#button{
+	background-color: #27c24c;
+	border-color: #27c24c;
+	color:white;
+}
+#add-button{
+	border-radius: 100%;
+	border: none;
+	background-color: #b9e563;
+	width: 40px;
+	height: 40px; 
+	color: white;
+	font-size: 20px;
+}
+#add-button:hover{
+	background-color: #CAEF84;
+	color:#A5C16E;
+}
+#update-link{
+	float:right;
+	color: white;
+	font-size: 20px;
+}
+#delete-link{
+	float:right;
+	color: #27c24c;
+	font-size: 20px;
+}
+/* add modal*/
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+.modal-header{
+	background-color: #65E563;
+	color:white;
+}
+/*button default*/
+.btn-default {
+    /* text-shadow: 0 1px 0 #fff; */
+    /* background-image: -webkit-linear-gradient(top,#fff 0,#0E0808 100%); */
+    background-image: none;
+    border-color: #27C24C;
+}
+.dropdown-toggle.btn-default:hover {
+    color: white;
+    background-color: #B9E563;
+    border-color:none;
+}
+
+#select-table {
+    height: 34px;
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 7px;
+    float: right;
+    margin-right: 33px;
+    padding-left: 9px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+        margin-left: 138px;
+    padding: 0;
+}
+
+.well {
+	    width: 88.3%;
+}
+
+.button-edit {
+	    top: 151px;
+    position: relative;
+    float: right;
+    width: 18%;
+}
